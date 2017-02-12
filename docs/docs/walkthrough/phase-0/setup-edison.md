@@ -112,7 +112,7 @@ And then paste the following to rename your Edison accordingly:
     echo $myedisonhostname > /etc/hostname
     sed -i"" "s/localhost$/localhost $myedisonhostname/" /etc/hosts
 
-Run these commands to set secure passwords:
+Run these commands to set secure passwords (ensure that you keep the quote marks in):
 
     passwd root
     passwd edison
